@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/produk.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+        .bg-coklat {
+            background-color: #935723;
+        }
+
+        .btn-coklattua {
+            background-color: #573517;
+        }
+
+        nav {
+            box-shadow: 0px 3px 7px -2px #000;
+            position: fixed;
+        }
+
+        .card {
+            box-shadow: 0px 3px 7px -2px #000;
+        }
+
+        footer {
+            background-color: #935723;
+            padding-top: 15px;
+            color: #fff;
+            justify-content: center;
+            display: flex;
+        }
+
+        div.navigasi img {
+            width: 40px;
+            aspect-ratio: 1;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+    <!--Awal Navbar-->
+    <nav class="nav navbar navbar-dark bg-coklat navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Shop</a>
+                    </li>
+                </ul>
+                <a class="btn btn-dark btn-coklattua ms-md-3"
+                    href="https://wa.me/6281290465033?text=Halo saya mau beli dong">
+                    <i class="bi bi-whatsapp"></i> Chat</a>
+            </div>
+        </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!--Awal Produk-->
+    <section class="riki-block produk text-center my-1 py-5">
+        <div class="container">
+            <h1>Pilih Jenis Produk</h1>
+            <p class="fs-4">Pilihlah produk yang ingin anda beli sekarang</p>
+            <hr class="border border-dark border-3 opacity-75">
+
+            <div class="form-floating mb-5">
+                <select class="form-select" id="select_produk">
+                    <!-- <option disabled selected>-Pilih Produk Anda-</option>
+                    <option value="Kopi">Kopi</option>
+                    <option value="Teh">Teh</option>
+                    <option value="Camilan">Camilan</option> -->
+                </select>
+                <label for="select_produk">Pilih Jenis Produk</label>
+            </div>
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+
+                <!--awal copy produk-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://disk.mediaindonesia.com/files/news/2023/09/07/Cappucino.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Latte</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    150 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    Rp 65.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir copy produk-->
+
+                <!--awal copy produk-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://lamafia.es/wp-content/uploads/2019/07/capuccino-italiano.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Capuchino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    150 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    Rp 75.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir copy produk-->
+
+                <!--awal copy produk-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://siroca.co.id/wp-content/uploads/2023/08/cappuccino-6996425_1280.jpg.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Kopi Susu</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    150 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    Rp 50.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir copy produk-->
+
+                <!--awal copy produk-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXNwcmVzc298ZW58MHx8MHx8fDA%3D"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Espresso</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    150 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    Rp 35.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir copy produk-->
+
+            </div>
+        </div>
+    </section>
+    <!--Akhir Produk-->
+
+    <!--Awal Footer-->
+    <footer class="riki-block footer-small py-3 bg-coklat">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#our-seller">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact-us">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    © 2024 Kopi Kuy! | All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Akhir Footer-->
+
+    <script src="js/produk.js"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+        var data_mentah = {}
+        console.log("isi Data Mentah = ", data_mentah);
+
+        var data_pilihan = []
+
+        select_produk.onchange = function () {
+            var pilihan = select_produk.value
+            console.log("Isi Pilihannya :", pilihan)
+            data_pilihan = data_mentah[pilihan]
+            console.log("Produk yang dipilih :", data_pilihan)
+            updateTampilan()
+        }
+
+        function updateSelect() {
+            select_produk.innerHTML = '<option selected disabled>-Pilih Produk Anda-</option>'
+            Object.keys(data_mentah).forEach(kategori => {
+                select_produk.innerHTML += '<option value="' + kategori + '">' + kategori + '</option>'
+            })
+            console.log("Select Berhasil")
+        }
+
+        updateSelect()
+
+        baris_produk.innerHTML = '';
+        function updateTampilan() {
+            baris_produk.innerHTML = '';
+            data_pilihan.forEach(produk => {
+                baris_produk.innerHTML += `<div class="col mb-4">
+        <div class="card">
+            <img src="${produk.foto}"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">${produk.nama}</h5>
+                <div class="row hargasize my-4">
+                    <div class="col">
+                        ${produk.size}
+                    </div>
+                    <div class="col text-primary fw-bold">
+                        ${produk.harga}
+                    </div>
+                </div>
+                <a href="${produk.link}" class="btn btn-success w-100">
+                    <i class="bi bi-cart4"></i> Beli</a>
+            </div>
+        </div>
+    </div>`;
+            })
+        }
+
+        // kode getjson nanti dibawah sini
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi";
+        var sumber2 = "data.json" + '?_=' + new Date().getTime();
+
+        $.getJSON(sumber2).then(data_json => {
+            data_mentah = data_json
+            updateSelect()
+        })
+
+    </script>
+</body>
+
+</html>
