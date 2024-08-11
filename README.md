@@ -10,7 +10,7 @@ Berikut adalah contoh tampilan dari website Kopi Kuy:
 
 ### Tampilan Navigasi dan Header
 
-![Tampilan Navigasi dan Header](bahan/Website-Kopi-Kuy.png)
+![Tampilan Navigasi dan Header](bahan/Website-Kopi-Kuy-New.png)
 
 ## Tujuan Proyek
 
